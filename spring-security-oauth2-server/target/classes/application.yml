@@ -19,3 +19,7 @@ spring:
 
 server:
   port: 8080
+
+mybatis:
+  type-aliases-package: com.chen.oauth2.server.domain
+  mapper-locations: classpath:mapperxml/*.xml
